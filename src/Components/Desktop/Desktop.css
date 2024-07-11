@@ -1,0 +1,72 @@
+.DesktopHeaders{
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+}
+
+.DesktopMargin{
+    margin: 0 10%;
+}
+
+.DesktopHeaders_left{
+    text-align: start;
+    margin: 0 10%;
+}
+
+.DesktopHeaders_right{
+    text-align: end;
+    margin: 0 10%;
+}
+
+.FunctionalCardGrid{
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto repeat(3, 300px) auto;
+    grid-template-rows:repeat(2,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.PriceCardGrid{
+    display: grid;
+    grid-template-columns: auto repeat(3,310px) auto;
+    grid-column-gap: 20px;
+    grid-template-rows: repeat(2, auto);
+}
+
+.ParkingPricesDescript{
+    font-size: 24px;
+    line-height: 26px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    text-align: left;
+}
+
+.AppDesktopBody{
+    margin: 0 10%;
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 400px;
+}
+
+
+.AppPreviewDesktop{
+    margin: auto;
+}
+
+.AppPreviewDesktop{
+    width: 500px;
+}
+
+.logo{
+    margin: auto;
+    padding-top:50px;
+    width: 100px;
+}
+
+.slogan{
+    text-align: center;
+    font-size: 22px;
+    line-height: 20px;
+}

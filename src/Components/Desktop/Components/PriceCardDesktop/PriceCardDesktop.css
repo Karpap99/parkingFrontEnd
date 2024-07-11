@@ -1,0 +1,36 @@
+.PriceCardBody{
+    text-align: center;
+    width: 305px;
+    height: auto;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    margin: auto;
+}
+
+.PriceCardBody-Price{
+    font-size: 180px;
+    line-height: 180px;
+    color: #1B2671;
+}
+
+.PriceCardBody-Underline{
+    height: 1px;
+    width: 80%;
+    background-color: gray;
+    margin: auto;
+}
+
+.PriceCardBackImage{
+    margin-top: auto;
+    border-radius: 0 0 25px 25px;
+}
+.PriceCardBody-Zonename{
+    font-size: 40px;
+}
+
+.PriceCardBody-ZoneDescript{
+    font-size: 20px;
+    line-height: 24px;
+}

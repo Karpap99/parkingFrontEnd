@@ -1,0 +1,46 @@
+.ParkingPrice-Body{
+    margin: 15px; 
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.ParkingPrice-Left{
+    width: 45%;
+    margin-right: 5%;
+    display: inline-block;
+}
+.ParkingPrice-Right{
+    width: 45%;
+    margin-left: 5%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ParkingPrice-Price{
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.15);
+    font-size: 95px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 80px;
+    color: #1B2671;
+}
+.ParkingPrice-currency{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #1B2671;
+}
+
+.ParkingPrice-ZoneName{
+    margin:  10px 0;
+    line-height: 19.55px;
+    font-size: 19px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ZoneTitle{
+    text-align: center;
+    font-size: 13px;
+    line-height: 15px;
+}

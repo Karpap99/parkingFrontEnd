@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'DniproCity';
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'DniproCity';
+  src:url("./Fonts/DniproCity-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'DniproCity';
+  src:url("./Fonts/DniproCity-Bold.ttf");
+  font-weight: bold;
+}
+
+
+

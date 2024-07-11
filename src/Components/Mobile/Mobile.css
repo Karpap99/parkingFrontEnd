@@ -1,0 +1,30 @@
+.Logo{
+    
+    width: 56px;
+    margin: auto;
+    padding-top: 65px;
+}
+
+.header-text{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.FunctionalSpace{
+    margin-left: 40px;
+}
+
+.AppPreview{
+    width: 100%;
+}
+
+.DownLoadButton{
+margin: auto;
+}
+.DownloadButtons{
+    padding: 0 10% ;
+}
+.ButtonBlock{
+    display: inline-block;
+    width: 50%;
+}

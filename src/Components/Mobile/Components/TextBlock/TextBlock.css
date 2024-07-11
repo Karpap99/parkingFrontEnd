@@ -1,0 +1,11 @@
+.TextBlock{
+    background-color: white;
+    width: 142px;
+    font-size: 13px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin: 15px;
+    margin-left: 10%;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}

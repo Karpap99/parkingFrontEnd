@@ -1,0 +1,36 @@
+.FooterBody{
+    background-color: #D9D9D9;
+    border: 1px solid transparent;
+    border-radius: 15px 15px 0 0;
+    padding: 10% 10% 0 10%;
+    margin-top: 20px;
+}
+
+.FooterContactsHeader{
+    color: #434343;
+    font-size: 20px;
+}
+
+.FooterContactsTypeHeader{
+    font-weight: 400;
+    font-size: 13px;
+}
+.links{
+    text-decoration: underline;
+    line-height: 20px;
+}
+
+.text-margin{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.callendar{
+    line-height: 20px;
+}
+
+.EdniproLogo{
+    width: 109px;
+}

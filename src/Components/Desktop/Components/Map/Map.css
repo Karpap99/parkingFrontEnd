@@ -1,0 +1,16 @@
+.MapDesktopContainer{
+
+    width: 80%;
+    height: 600px;
+    padding: 10px;
+    margin:auto;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+.ProjectMap{
+    width: 100px;
+}
+
+.PolygonParams{
+    background-color: red;
+}
