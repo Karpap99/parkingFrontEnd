@@ -8,7 +8,7 @@ function ParkingPaying(){
             <TextBlock Title={'Перейдіть до "Сервісів" виберіть іконку "Паркування"'} orientation="right"></TextBlock>
             <TextBlock Title={'Натисніть “Припаркуватись”'}></TextBlock>
             <TextBlock Title={'Оберіть паркомісце за допомогою мапи та геолокації"'} orientation="right"></TextBlock>
-            <TextBlock Title={"Сплачуйте погодинно або придбайте абонемент та отримуйе офіційну квитанцію"}></TextBlock>
+            <TextBlock Title={"Сплачуйте погодинно або придбайте абонемент та отримуйте офіційну квитанцію"}></TextBlock>
             </div>
     )
 }

@@ -4,13 +4,13 @@ function ParkingPrice({Price = 0, Title, ZoneName}){
     let ZoneNameStyle = {
         color: "black"
     }
-    if(ZoneName == "Червона"){
+    if(ZoneName === "Червона"){
         ZoneNameStyle.color = "#FF0000"
     }
-    else if(ZoneName == "Жовта"){
+    else if(ZoneName === "Жовта"){
         ZoneNameStyle.color = "#FFC700"
     }
-    else if(ZoneName == "Зелена"){
+    else if(ZoneName === "Зелена"){
         ZoneNameStyle.color = "#3EC300"
     }
 

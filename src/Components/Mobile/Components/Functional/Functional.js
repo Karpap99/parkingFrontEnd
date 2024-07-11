@@ -4,7 +4,7 @@ function Functional({ImageSrc, Text, orientation = "left"}){
         "marginLeft" : "10%"
     }   
 
-    if(orientation == "right"){
+    if(orientation === "right"){
         margin = {
             "marginLeft" : "20%",
         }

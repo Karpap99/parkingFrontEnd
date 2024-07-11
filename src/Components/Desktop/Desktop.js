@@ -12,10 +12,12 @@ import PlayStore from "../../downloadfromGoogle.png"
 import AppStore from "../../downloadfromAppStore.png"
 import logo from "../../logo.png"
 import ProjectMap from "./Components/Map/Map";
+import FooterDesktop from "./Components/FooterDesktop/FooterDesktop";
+import PayingForParkingDesktop from "./Components/PayingForParkingDesktop/PayingForParkingDesktop";
 function Desktop(){
     return(
         <div className="DesktopBody ">
-            <img src={logo} className="logo"></img>
+            <img src={logo} className="logo" alt="logo"></img>
             <div className="slogan">Новий рівень розвитку міста! Швидке паркування в твоєму смартфоні</div>
             <h1 className="DesktopHeaders">Оплата паркування у місті Дніпро</h1>
                 <div className="FunctionalCardGrid">
@@ -49,6 +51,7 @@ function Desktop(){
             <ProjectMap></ProjectMap>
             <div className="DesktopMargin">Подивіться розташування паркувальних зон поряд з вами на карті</div>
             <h1 className="DesktopHeaders DesktopHeaders_left">Як Оплачувати<br></br>Паркування?</h1>
+            <PayingForParkingDesktop></PayingForParkingDesktop>
             <h1 className="DesktopHeaders DesktopHeaders_left">Завантажуй мобільний<br></br>застосунок</h1>
             <div className="AppDesktopBody">
                 <div className="AppDesktopLeft">
@@ -59,14 +62,19 @@ function Desktop(){
                     обрати його самостійно зі списку.<br/>
                     Оплачуйте погодинно або придбайте абонемент.
                     </div>
-                    <div>
-                        <img src={AppStore}></img>
-                        <img src={PlayStore}></img>
-                        <div>Завантажуй безкоштовно на свій смартфон</div>
+                    <div className="DesktopDownloadButtons">
+                        <div className="DesktopButtons">
+                        <img src={AppStore} alt="" className="ButtonBlock DesktopButton"></img>
+                        <img src={PlayStore} alt="" className="ButtonBlock DesktopButton"></img>
+                        </div>
+                  
+                        <div className="DesktopButtonDescription">Завантажуй безкоштовно на свій смартфон</div>
                     </div>
+                    
                 </div>
-                <img src={AppPreview} className="AppPreviewDesktop"></img>
+                <img src={AppPreview} className="AppPreviewDesktop" alt=""></img>
             </div>
+            <FooterDesktop></FooterDesktop>
         </div>
     )
     

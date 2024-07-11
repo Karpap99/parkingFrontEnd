@@ -1,0 +1,14 @@
+.Box{
+    border: 1px transparent solid;
+    border-radius: 5px;
+    color:black;
+    font-size: 24px;
+    line-height: 24px;
+    background-color: white;
+    height: 27px;
+    width: 27px;
+    margin: 1px;
+    display: inline-block;
+    text-align: center;
+    
+}

@@ -3,7 +3,7 @@ function TextBlock({Title, orientation = "left"}){
     let margin = {
         "marginLeft" : "10%"
     }
-    if (orientation == "right"){
+    if (orientation === "right"){
         margin = {
             "marginLeft" : "50%"
         }

@@ -27,11 +27,11 @@ function ProjectMap(){
         } else {
             console.log("Geolocation not supported");
         }
-    fetch("http://10.119.4.84:3100/zone")
+    /*fetch("http://10.119.4.84:3100/zone")
     .then((res)=>res.json())
     .then((data)=>{
         setZones(data)
-    })
+    })*/
 }, [])
 
     
