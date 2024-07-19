@@ -168,7 +168,7 @@ function ProjectMap(){
         ])
     const { isLoaded } = useJsApiLoader({
         id: 'google-map-script',
-        googleMapsApiKey: "AIzaSyDHO2nYzq334w4yPkfogcWBOxycma1Ygk8"
+        googleMapsApiKey: ""
       })
     
       
